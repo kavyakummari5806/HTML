@@ -1,0 +1,10 @@
+http://127.0.0.1:5500/11%20NOV/index11.
+html?name=kavya&Address=near+power+station%2Cdarsipeta%2Cvijayawada&Blood+
+Group=B%2B&Email=kavyakummari2000%40gmail.com&Mobile+No=9391337595&
+Password=5858&Gender=on&Hobbies=on&Hobbies=on&Hobbies=on&Submit=Submit
+
+http://127.0.0.1:5500/11%20NOV/index11.html?
+name=kavya&Address=near+power+station%2Cdarsipeta%2Cvijayawada&
+Blood+Group=&Email=kavyakummari2000%40gmail.com&Mobile+No=9391337595&
+Password=5858&Gender=F&Hobbies=Playing&Hobbies=Gardening&
+Hobbies=Listening&Submit=Submit

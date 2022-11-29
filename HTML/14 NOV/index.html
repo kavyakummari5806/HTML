@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="./styles.css"/>     
+    </head>
+    <body>
+        <h1>Signup</h1>
+        <form>
+            <fieldset>
+                <legend>Signup Form</legend>
+                <p>Full Name:  <span style="color: red">*</span></p>
+                <input type="text" name="name" class="inputElement" placeholder="Enter your full name here">
+                <p>Email:  <span style="color: red">*</span></p>
+                <input type="text" name="email" class="inputElement" placeholder="Enter an Email">
+                <p>Age:  <span style="color: red">*</span></p>
+                <input type="number" name="age" class="inputElement" placeholder="Enter your age">
+                <p>Password: <span style="color: red">*</span></p>
+                <input type="password" name="password" class="inputElement" maxlength="8">
+                <p>Confirm Password: <span style="color: red">*</span></p>
+                <input type="password" name="confirm password" class="inputElement" maxlength="8" required>
+                <p>Gender:</p>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Others
+                <p>Date of Birth:</p>
+                <input type="date" name="dob" min="1990-01-01" max="2000-12-31">
+                <p>select your Favourite Movie/Anime:</p>
+                <select>
+                <optgroup lable="Action Films">
+                <option>Race1</option> 
+                <option>Race2</option>
+                <option>Race3</option>   
+                </optgroup>
+                <optgroup lable="Anime">
+                <option>Naruto</option> 
+                <option>Death Note</option>
+                <option>Parasyta</option>
+                <option>Tokyo Ghoul</option>
+                </optgroup>
+                </select>
+                <p>Favourite Color</p>
+                <input list="color">
+                <datalist id="color">
+                    <option value="Red">
+                    <option value="Green">
+                    <option value="Blue"> 
+                    <option value="Pink">
+                    <option value="Brown">  
+                    <option value="Black">
+                    <option value="Grey">    
+                </datalist>
+                </select>
+                <p>Security Question:</p>
+                <select class="inputElement">
+                <option>what was your first pet name?</option>
+                <option>what is the DOB of your Mom?</option>
+                <option>what is your favourite color?</option>
+                <option>what is your fathers middle name?</option>    
+                </select>
+                <br>
+                <p>Color:</p>
+                <input type="color">
+                <p>Resume:</p>
+                <input type="file">
+                <textarea rows="5 cols=30" class="inputElement"></textarea>
+                <p><input type="checkbox" name="agreement" required/>I agree to accept terms and conditions <span style="color: red">*</span></p>
+                <input type="submit" value="Register"
+            </fieldset>
+        </form>
+    </body>
+</html>

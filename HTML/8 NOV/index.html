@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            Time Table
+        </title>
+        <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td,th{
+            padding: 7px;
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td rowspan="2">Social</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <!--<td>Science</td>-->
+                    <td>Science</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Lunch</td>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td rowspan="2">English</td>
+                    <td>Science</td>
+                    <td>Social</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <!--<td>Maths</td>-->
+                    <td>Science</td>
+                    <td>Social</td>
+                    <td>English</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+
