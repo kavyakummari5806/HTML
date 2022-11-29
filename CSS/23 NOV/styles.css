@@ -1,0 +1,40 @@
+#facebookIcon{
+    color:blueviolet;
+    font-size: 40px;
+}
+#laptopcode-icon{
+    color: lightgreen;
+    font-size: 40px;
+   /* background-color: blueviolet;*/
+}
+.login-with-fb{
+    background-color: #1877f2;
+    /*width: 200px;*/
+    /*width: 50%;*/
+    color: #fff;
+    border: none;
+    padding: 10px 10px ;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#fbLogo{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.login-with-fb:hover{
+    color: #1877f2;
+    background-color: #ffffff;
+    border: 1px solid #1877f2;
+    /*transform: scale(1.1);*/
+}
+.span-exp{
+    background-color: #1877f2;
+    /*In span dimension properties will not work*/
+    /*(BY USING DISPLAY: INLINE-BLOCK PROPERTY,WE CAN ADD
+       DIMENSIONS IN SPAN TAG)*/
+         margin: 20px 0px;
+         height: 50px;
+         width: 100px;
+         display: inline-block;         
+}

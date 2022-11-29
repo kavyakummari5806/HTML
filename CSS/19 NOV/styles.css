@@ -1,0 +1,33 @@
+.heading{
+    color: #2c9de8;
+    font-size: 50px;
+    text-align: left;
+    text-decoration: underline;
+}
+#my-span{
+    color: blue;
+    font-size: 25px;
+}
+p{
+    background-color: lightskyblue;
+    font-size: 21px;
+    text-align: justify;
+    /*font-style: italic;*/
+    font-weight: 500;
+    word-spacing: 10px;
+    font-family: 'Rubik Distressed', cursive;
+
+   }
+div{
+    font-size: 30px;
+}
+.original-price{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.transform-exp{
+    text-transform: capitalize;
+}
